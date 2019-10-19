@@ -45,7 +45,7 @@ START HERE
 # )a = 3
 # PROBLEM: I want to check if a is equal to 3
 # )Correct:
-
+a == 3
 #6)
 # )Broken:
 # )a = 4
@@ -53,21 +53,21 @@ START HERE
 # )a = b
 # PROBLEM: I want to check if a is equal to b, not assign it to b
 # )Correct:
-
+a == 3
 #7)
 # )Broken:
 # )a = 3
 # )a < 4
 # )PROBLEM: I want it to be true when a is less than OR equal to 4
 # )Correct:
-
+a <= 4
 #8)
 # )Broken:
 # )a = 3
 # )a > 4
 # )PROBLEM: I want it to be true when a is greater than OR equal to 4
 # )Correct:
-
+not(a>=4)
 #9)
 # )Broken:
 # )a = 3
@@ -75,7 +75,7 @@ START HERE
 # )a < 3
 # )PROBLEM: I want it to be true when a is less than OR equal to b
 # )Correct:
-
+a<=b
 #10)
 # )Broken:
 # )a = 3
@@ -83,3 +83,4 @@ START HERE
 # )a > b
 # )PROBLEM: I want it to be true when a is greater than OR equal to b
 # )Correct:
+a>=b
