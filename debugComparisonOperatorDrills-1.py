@@ -67,7 +67,7 @@ a <= 4
 # )a > 4
 # )PROBLEM: I want it to be true when a is greater than OR equal to 4
 # )Correct:
-not(a>=4)
+(a>=4)
 #9)
 # )Broken:
 # )a = 3
